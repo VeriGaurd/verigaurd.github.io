@@ -1,10 +1,9 @@
 #wrapper {
     border-radius: 25px;
-    top: 160px;
-    left: 160px;
-    width: 800px;
-    min-height: 500px;
-    height: auto;
+    top: relative;
+    left: relative;
+    width: 20%;
+    height: 25%;
     background-color: #2185C5;
     position: relative;
 }
