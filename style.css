@@ -18,6 +18,10 @@
   left: 35%;
 }
 
+@title {
+  color: white;
+}
+
 @items {
     width: 50px;
     height: auto;
