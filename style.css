@@ -1,9 +1,10 @@
 #wrapper {
     border-radius: 25px;
     display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 div {
