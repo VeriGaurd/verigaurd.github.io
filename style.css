@@ -1,11 +1,14 @@
 #wrapper {
     border-radius: 25px;
-    top: relative;
-    left: relative;
-    width: 20%;
-    height: 25%;
-    background-color: #2185C5;
-    position: relative;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+
+div {
+  width: 50%;
+  height: 50%;
 }
 
 @items {
