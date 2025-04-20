@@ -7,6 +7,14 @@
     min-height: 100vh;
 }
 
+#block {
+    border-radius: 25px;
+    display: flex;
+    width: 400px;
+    height: 600px;
+     background-color: #5x5d5f;
+}
+
 div {
   width: 50%;
   height: 50%;
