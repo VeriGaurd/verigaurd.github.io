@@ -1,5 +1,5 @@
 
-body {
+.parent {
   place-items: center;
   justify-items: center;
 }
