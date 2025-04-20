@@ -2,8 +2,6 @@
 body {
   place-items: center;
   justify-items: center;
-   top: 45%;
-  left: 45%;
 }
 
 .child {
@@ -12,6 +10,8 @@ body {
   width: 350px;
   height: 500px;
   position: absolute;
+  top: 45%;
+  left: 45%;
 }
 
 @items {
