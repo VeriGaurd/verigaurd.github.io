@@ -7,12 +7,12 @@ body {
 .child {
   border-radius: 25px;
   background: 262772E;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  background: linear-gradient(nulldeg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
   width: 350px;
   height: 500px;
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 25%;
+  left: 35%;
 }
 
 @items {
