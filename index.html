@@ -5,14 +5,14 @@
     </head>
 
     
-    <body class="parent">
+    <body class="parent" onload='notBannedFromServer();">
            <div class="child">
                <h1 id="title">Anti Robot Security System</h1><br/>
                <p>You have been verified you can now close this page!</p>
            </div>
     </body>
 
-    <script src="verify.js">
+    <script>
         
 async function notBannedFromServer() {
   const searchParams = new URLSearchParams(window.location.search);
@@ -28,7 +28,6 @@ async function notBannedFromServer() {
         
     }
 }
-        notBannedFromServer();
     </script>
 
 </html>
