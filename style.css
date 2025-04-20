@@ -12,10 +12,10 @@
   color: white;
   background: linear-gradient(117deg, rgba(43, 45, 37, 1) 0%, rgba(43, 45, 49, 1) 100%);
   width: 400px;
-  height: 575px;
+  height: 555px;
   position: absolute;
   top: 25%;
-  left: 40%;
+  left: 38%;
   place-items: center;
   justify-items: center;
 }
