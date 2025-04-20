@@ -8,8 +8,9 @@
 
 .child {
   border-radius: 25px;
-  background: 262772E;
-  background: linear-gradient(nulldeg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: #2B2D25;
+  color: white;
+  background: linear-gradient(117deg, rgba(43, 45, 37, 1) 0%, rgba(43, 45, 49, 1) 100%);
   width: 350px;
   height: 500px;
   position: absolute;
