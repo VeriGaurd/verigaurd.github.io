@@ -1,0 +1,18 @@
+#wrapper {
+    top: 160px;
+    left: 160px;
+    width: 800px;
+    min-height: 500px;
+    height: auto;
+    background-color: #2185C5;
+    position: relative;
+}
+
+#items {
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: red;
+}
