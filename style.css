@@ -5,7 +5,8 @@ body {
 }
 
 .child {
-  background: orange;
+  border-radius: 25px;
+  background: #5C5D5F;
   width: 350px;
   height: 500px;
   position: absolute;
