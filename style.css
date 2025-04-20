@@ -6,8 +6,8 @@ body {
 
 .child {
   background: orange;
-  width: 500px;
-  height: 900px;
+  width: 350px;
+  height: 500px;
   position: absolute;
 }
 
