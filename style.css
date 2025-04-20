@@ -2,6 +2,8 @@
 .parent {
   place-items: center;
   justify-items: center;
+  background-image: url('d8680b1c1576ecc8.svg'); 
+  background-size: cover;
 }
 
 .child {
