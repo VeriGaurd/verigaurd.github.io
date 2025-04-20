@@ -2,7 +2,13 @@
   height: 100%;
   width: 100%;
   position: relative;
-  align-items: center;
+  background: orange;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
 .child {
@@ -11,8 +17,6 @@
   height: 450px;
   position: absolute;
   top: 50%;
-  
-  bottom: 50%;
   left: 50%;
   margin: -50px 0 0 -50px;
 }
