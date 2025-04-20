@@ -1,23 +1,18 @@
-#wrapper {
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
+.parent {
+  background: gray;
+  height: 300px;
+  width: 300px;
+  position: relative;
 }
 
-#block {
-    border-radius: 25px;
-    display: block;
-    width: 400px;
-    height: 600px;
-     background: #5x5d5f;
-}
-
-div {
-  width: 50%;
-  height: 50%;
+.child {
+  background: orange;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
 @items {
