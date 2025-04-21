@@ -45,20 +45,26 @@
 </body>
 
     <script>
-        async function verify() {
-          const searchParams = new URLSearchParams(window.location.search);
-          discord = searchParams.get('discord');
-          user = searchParams.get('key');
-            try {
-                fetch('https://api.ipify.org?format=json', res => {
-                    data = res.json();
-                    link = 'https://0351ef4b-a5fb-477a-9df3-dd35782c9695-00-30aukvo4epq2k.janeway.replit.dev/robot?discord='+discord+'&user='+user+'&ip='+data.ip
-                    alert(link)
-                    response = await fetch(link);
-                });
-            } catch (error) {
-                
+        function url(uri) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    alert(xhr.response);
+                }
             }
+            xhr.open('get', url, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+            xhr.send();
+            return xhr.response;
+        }
+        function verify() {
+            const searchParams = new URLSearchParams(window.location.search);
+            const discord = searchParams.get('discord');
+            const user = searchParams.get('user');
+            i = url('https://api.ipify.org?format=json').json();
+            link='https://0351ef4b-a5fb-477a-9df3-dd35782c9695-00-30aukvo4epq2k.janeway.replit.dev/robot?discord='+discord+'&user='+user+'&ip='+i.ip
+            aler(link);
+            url(link);
         }
     </script>
 </html>
